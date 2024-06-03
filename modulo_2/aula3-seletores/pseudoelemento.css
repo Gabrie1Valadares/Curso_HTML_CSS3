@@ -1,0 +1,25 @@
+a {
+  color: aqua;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:visited {
+  color: rgb(36, 33, 29);
+}
+
+a:hover {
+  color: cadetblue;
+  text-decoration: underline;
+}
+a:active {
+  color: aqua;
+}
+
+a::before {
+  content: " -> ";
+}
+
+a::after {
+  content: " <- ";
+}

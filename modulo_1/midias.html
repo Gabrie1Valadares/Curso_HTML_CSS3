@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mídias em HTML5</title>
+  </head>
+  <body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+      aumente e diminua o tamanho do seu navegador.
+    </p>
+    <!--OBS É preciso sempre manter a ordem das imagens -->
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="ExImg/img-fotos.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="ExImg/img-media.png"
+        type="image/png"
+      />
+      <img src="ExImg/img-grande.png" alt="Imagem Flexível" />
+    </picture>
+    <!--ADICIONANDO AUDIOS AO SITE-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <h2>Porra de love</h2>
+    <!--<audio src="ExImg/01 - PORRA DE LOVE.mp3" controls autoplay></audio>-->
+    <!--Outra maneira de Adicionar áudios-->
+    <audio preload="metadata" autoplay controls loop>
+      <source src="ExImg/01 - PORRA DE LOVE.mp3" type="audio/mpeg" />
+      <source src="ExImg/01 - PORRA DE LOVE.ogg" type="audio/ogg" />
+      <source src="ExImg/01 - PORRA DE LOVE.wav" type="audio/wav" />
+      <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+      <a href="ExImg/01 - PORRA DE LOVE.mp3">
+        Clique aqui para baixar o arquivo</a
+      >
+    </audio>
+  </body>
+</html>

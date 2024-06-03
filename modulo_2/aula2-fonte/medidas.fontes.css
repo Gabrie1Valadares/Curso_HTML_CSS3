@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*body {
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+P {
+  text-align: justify;
+}
+h1 {
+  color: rgb(0, 255, 64);
+  background-color: blue;
+}
+h2 {
+  background-color: blue;
+  color: rgb(255, 127, 238);
+}
+
+h2 {
+  border: 18px;
+  display: inline;
+}
+*/
+/* AULA DE CRIAÇÃO DE DEGRADÊ
+*/
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(0, 238, 255),
+    rgb(0, 132, 255)
+  );
+}
+/*TRABALHANDO COM fONTES */
+
+body {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+/*ANOTAÇÕES E OBS
+ MEDIDAS ABSOLUTAS
+ => cm, mm, in, px, pt, pc (IN é pelegadas)
+
+ MEDIDAS RELATIVA 
+  em, ex,ren vw, vh, %
+  16 geralmente = 1em
+  
+  SHORTHAND  FONT
+   - FONT-STYLE -> FONT-WEIGHT -> FONT-SIZE -> FONTE-FAMILY
+*/

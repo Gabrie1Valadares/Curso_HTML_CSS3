@@ -1,0 +1,52 @@
+/* div {
+  display: inline-block;
+}
+div:hover {
+  background-color: brown;
+}
+.a {
+  background-color: aquamarine;
+
+  padding: 5px;
+  text-align: center;
+  height: 200px; 
+  width: 200px; 
+  border: solid black;
+}
+.b {
+  background-color: rgb(129, 127, 255);
+  padding: 5px;
+  text-align: center;
+  height: 200px; 
+  width: 200px; 
+  border: solid black;
+}
+.c {
+  background-color: rgb(209, 77, 169);
+  padding: 5px;
+  text-align: center;
+  height: 200px; 
+  width: 200px; 
+  border: solid black;
+}
+*/
+
+/*EXERCÍCIO UTILIZANDO HOVER*/
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+  color: rgb(53, 50, 205);
+  background-color: rgb(255, 127, 127);
+  width: 300px;
+}
+
+div:hover {
+  color: blueviolet;
+}
